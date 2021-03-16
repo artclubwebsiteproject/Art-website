@@ -1,10 +1,11 @@
+
 /* Creates black background */ 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #d3d3d3;
+  background-color: #383737;
 }
 
 /* lines the list elements up horizontally*/
@@ -20,10 +21,16 @@ nav li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+/*When mouse hovers on nav, turns gold*/
 nav li a:hover {
   background-color: gold;
-} 
+}
+/*To make the bg grey*/
 html {
-  background-color: grey;
+  background-color: grey;}
+h1{
+  Text-align: Center;
+}
+h3{
+  Text-align: Center;
 }
