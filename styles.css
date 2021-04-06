@@ -4,7 +4,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #383737;
+  background-color: #000000;
 }
 
 /* lines the list elements up horizontally*/
@@ -17,7 +17,7 @@ nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 25px 30px;
   text-decoration: none;
 }
 /*When mouse hovers on nav, turns gold*/
@@ -26,29 +26,33 @@ nav li a:hover {
 }
 /*To make the bg grey*/
 html {
-  background-color: grey;}
+  background-image: url(https://cdn.wallpapersafari.com/59/16/CiNZdo.jpg)
+}
 h1{
   Text-align: Center;
+  color: white;
 }
 h2{
   Text-align: Center;
+  color: white;
 }
 h3{
   Text-align: Center;
   margin: 10px 150px;
+  color: white;
 }
 h4{
   Text-align: Center;
-}
-h5{
-  Text-align: center;
+  margin: 5px 120px;
+  color:white;
 }
 p{
    text-align: center;
+   color:white;
   }
 img{
   border-style: solid;
   border-width: 7px;
-  border-color: gold;
+  border-color: rgb(247, 202, 3);
   border-radius: 70px;
 }
