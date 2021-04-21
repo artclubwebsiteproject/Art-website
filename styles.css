@@ -1,58 +1,66 @@
 /* Creates black background */ 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #000000;
-}
-
-/* lines the list elements up horizontally*/
-nav li {
-  float: left;
-}
-
-/*Creates padding around link*/
-nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 25px 30px;
-  text-decoration: none;
-}
-/*When mouse hovers on nav, turns gold*/
-nav li a:hover {
-  background-color: gold;
-}
-/*To make the bg grey*/
-html {
-  background-image: url(https://cdn.wallpapersafari.com/59/16/CiNZdo.jpg)
-}
-h1{
-  Text-align: Center;
-  color: white;
-}
-h2{
-  Text-align: Center;
-  color: white;
-}
-h3{
-  Text-align: Center;
-  margin: 10px 150px;
-  color: white;
-}
-h4{
-  Text-align: Center;
-  margin: 5px 120px;
-  color:white;
-}
-p{
-   text-align: center;
-   color:white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
   }
-img{
-  border-style: solid;
-  border-width: 7px;
-  border-color: rgb(247, 202, 3);
-  border-radius: 70px;
-}
+  
+  /* lines the list elements up horizontally*/
+  nav li {
+    float: left;
+  }
+  
+  /*Creates padding around link*/
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+  }
+  /*When mouse hovers on nav, turns gold*/
+  nav li a:hover {
+    background-color: gold;
+  }
+  /*To make the bg grey*/
+  html {
+    background-image: url(https://cdn.wallpapersafari.com/59/16/CiNZdo.jpg)
+  }
+  h1{
+    Text-align: Center;
+    color: white;
+  }
+  h2{
+    Text-align: Center;
+    color: white;
+  }
+  h3{
+    Text-align: center;
+    margin: 10px 150px;
+    color: white;
+  }
+  h4{
+    Text-align: Center;
+    margin: 5px 120px;
+    color:white;
+  }
+  p{
+     text-align: center;
+     color:white;
+     
+    }
+    img{
+      border-style: solid;
+      border-width: 7px;
+      border-color: rgb(247, 202, 3);
+      border-radius: 70px;
+    } 
+      .lion {
+        display: block;
+       margin-left: auto;
+       margin-right: auto;
+        width: 25%;
+
+      } 
